@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tar:*)",
+      "Bash(powershell -Command \"Expand-Archive -Path ''ai-gateway-starter.zip'' -DestinationPath ''.'' -Force\")",
+      "Bash(npm run dev:*)"
+    ]
+  }
+}
